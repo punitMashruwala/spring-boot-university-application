@@ -1,0 +1,2 @@
+# spring-boot-university-application
+A small university application built on Spring Boot with MongoDB and API Documentation on Swagger. In this application, users can create, read, update, and delete Student Record, Faculty Record, and Course Record. Also, if a user is a Faculty, then he can edit or create a course with his name as a faculty and course name with other info. And if a user is a Student then he can Register for a course or can Drop a course.
