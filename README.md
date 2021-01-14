@@ -10,18 +10,22 @@
   2. **Faculty**
   3. **Course**
   - This Application is capable of performing CRUD operation like:
+  
   -- **Create**: 
 			  1. User can create a Student Record
 			  2. User can create a Faculty Record
 			  3. User can create a Course Record
+			  
   -- **Read**:  Read all record or by single record with the help of Id
 			  1. User can read Student Record
 			  2. User can read  Faculty Record
 			  3. User can read  Course Record
+			  
   -- **Update**:  
 			  1. User can update a Student Record
 			  2. User can read  a Faculty Record
 			  3. User can read a Course Record
+			  
   -- **Delete**:  
 			  1. User can delete a Student Record
 			  2. User can delete a Faculty Record
@@ -78,6 +82,7 @@
 
 Also, model files can be check  [here](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/main/java/com/example/mongo_task/model) .
  - **Exceptional handling**: 
+ 
  -- In Post Api and Put Api Custom Input Parameter validation is handle. If any of the field in request body is missing or not valid then error will be thrown with Http status code **500**.
  -- While fetching the records, if Record is not found then error is thrown with Http Status code **404** (not found).
  -- If api url is not correct then error is thrown with Http Status code **400** (service_unavailable).
@@ -89,17 +94,21 @@ Also, model files can be check  [here](https://github.com/punitMashruwala/spring
  ## Business Logic:
  - Once all records are created, **Below API** are used for Operation like Course Registration , Course Drop or Increasing/Decreasing Course Capacity.
  - **< basepath >/< port >/api/registration/updateFacultyName**:
+ 
  --  In this api, A faculty needs to provide **Course Id, Faculty Id, Faculty Name.**      	
  -- With the help of three field, course and faculty records are fetched.
  -- If records found then in course record, fields like conductedBy, capacity and Waitlist capacity are **updated** and course name will be added in faculty record.
  -- Else **error** is thrown.
+ 
  - **< basepath >/< port >/api/registration/courseRegistration**:
+ 
  -- In this api, A student need to provide **Course Id, Student Id, Student Name**. -- With the help of three field, course and student record is fetched. 
  -- If records are present, then capacity and remaining seats are checked. 
  -- If Remaining Seats is not 0, then course is registered **successfully** and course name is added in the student record.  
  -- If Remaining Seats is 0 then error is thrown: **Course is already full.**
  
  - **< basepath >/< port >/api/registration/courseDrop**:
+ 
  -- In this api, A student need to provide **Course Id, Student Id, Student Name**. 
  -- With the help of three field, course and student record is fetched. 
  -- If records are present, then if course name exist in the student record then course is dropped **successfully** and course name is removed from the student record as well.  
