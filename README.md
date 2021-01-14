@@ -23,17 +23,17 @@
   
 			  1. User can read Student Record
 			  
-			  2. User can read  Faculty Record
+			  2. User can read Faculty Record
 			  
-			  3. User can read  Course Record
+			  3. User can read Course Record
 			  
   -- **Update**:  
   
 			  1. User can update a Student Record
 			  
-			  2. User can read  a Faculty Record
+			  2. User can update a Faculty Record
 			  
-			  3. User can read a Course Record
+			  3. User can update a Course Record
 			  
   -- **Delete**:  
   
