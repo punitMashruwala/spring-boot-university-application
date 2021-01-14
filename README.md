@@ -16,7 +16,7 @@
 ## How to run
 
  1.  Clone this repository
- 2.   Make sure you are using current java version and Maven 3.x and check if you have [MongoDB install](https://www.mongodb.com/try/download/community)
+ 2.   Make sure you are using current java version and Maven 3.x and check if you have [MongoDB installed](https://www.mongodb.com/try/download/community)
  3.  First you need to start mongo service on your machine. Command for that is: 
 `mongod`
  4. Then on another command prompt you need to run this command: 
@@ -40,7 +40,7 @@
  Also, Exception Handling and custom message object is also defined [here](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/main/java/com/example/mongo_task/exception_handling).
  - **Repository Model**:  [In Repository Model](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/main/java/com/example/mongo_task/repository), Mongo Repository for different Collection is defined.
  - **DTO Model**: [Here](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/main/java/com/example/mongo_task/model) schema and other input validation for different types of users (Student, Faculty and Course) is defined.
- - **JUNIT Test cases**: Mockito is used and Have created three seperate file for three different users CRUD operation. Find it [here](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/test/java/com/example/mongo_task).
+ - **JUNIT Test cases**: Mockito is used and three seperate file are created for three different users (Student, Faculty and Course) CRUD operation. Find it [here](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/test/java/com/example/mongo_task).
  
 
  ## Business Logic:
