@@ -8,7 +8,9 @@
  - In this application, there are three types of User:
  
  -- **Student**: Student as a user can create, update, read or delete Student Record and also Register in Course or can Drop from a Course.
+ 
  -- **Faculty**: Faculty as user can create, update, read or delete Student Record and also Update a Course like updating Capacity or waitlist.
+ 
  -- **Course**: A normal user can create, update, read and delete Course Record.
 
 ## How to run
