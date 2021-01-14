@@ -9,7 +9,8 @@
   1. **Student**
   2. **Faculty**
   3. **Course**
-  - This Application is capable of performing CRUD operation like:
+  
+  - This Application is capable of performing **CRUD** operation like:
   
   -- **Create**: 
   
