@@ -7,11 +7,11 @@
  - A small university application built on Spring Boot with MongoDB and API Documentation on Swagger.
  - In this application, there are three types of User:
  
- -- **Student**: Student as a user can create, update, read or delete Student Record and also Register in Course or can Drop from a Course.
+ 1. **Student**: Student as a user can create, update, read or delete Student Record and also Register in Course or can Drop from a Course.
  
- -- **Faculty**: Faculty as user can create, update, read or delete Student Record and also Update a Course like updating Capacity or waitlist.
+ 2. **Faculty**: Faculty as user can create, update, read or delete Student Record and also Update a Course like updating Capacity or waitlist.
  
- -- **Course**: A normal user can create, update, read and delete Course Record.
+ 3. **Course**: A normal user can create, update, read and delete Course Record.
 
 ## How to run
 
