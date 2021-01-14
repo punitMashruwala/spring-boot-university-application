@@ -1,4 +1,4 @@
-# spring-boot-university-application
+# Spring Boot University Application
 
 
 ## Introduction
@@ -12,7 +12,7 @@ A small university application built on Spring Boot with MongoDB and API Documen
 - Then on another command prompt you need to run this command: 
 `mongo`
 - Once mongo is up, Open MongoDBCompass application, connect to URL: **mongodb://127.0.0.1:27017**
-- Create a new Database with Name: "UniversityDatabase" and Create 3 Collection with Name: "Student", "Faculty", "Course"
+- Create a new Database with Name: **"UniversityDatabase"** and Create 3 Collection with Name: **"Student"**, **"Faculty"**, and **"Course"**
 -  Select that Database and Collection, then from "Collection" Menu, select Import Data by selecting Json file from **MongoDB Dump** folder from git clone.
 -  After this step, open application folder and go to folder **"mongo_task"**
 -  Open Command Prompt or Cmd Editor
