@@ -75,23 +75,23 @@
  - **DTO Model**: 
   -- Following Table displays fields which are used as a schema.
 ```
-| Student 			| Faculty 			| Course  				|
-| -----------------------------	| ------------------------------| --------------------------------	|
-| id      			| id      			| id      				|
-| name    			| name    			| name    				|
-| email   			| email   			| day     		    		|	
-| type    			| post    			| time    		    		|
-| major   			| qualification     		| conductedBy       			|
-| concentration    		| reasearchArea	    		| courseCredit	    			|
-| address 			| experience        		| capacity	        		|
-| city    			| currentCourse     		| waitlist_capacity     		|
-| state 			| dateOfBirth			| active      				|
-| country  			| 				| remaining    				|
-| pincode 			| 				| location      			|
-| dateOfBirth			| 				| student    				|
-| courseCompleted		| 				| waitlist_active    			|
-| courseTaken			| 				| waitlist_remaining    		|
-| gpa				| 				| 					|
+| Student 		| Faculty 		| Course  		|
+| ----------------------| ----------------------| ----------------------|
+| id      		| id      		| id      		|
+| name    		| name    		| name    		|
+| email   		| email   		| day     		|	
+| type    		| post    		| time    		|
+| major   		| qualification     	| conductedBy       	|
+| concentration    	| reasearchArea	    	| courseCredit	    	|
+| address 		| experience        	| capacity	        |
+| city    		| currentCourse     	| waitlist_capacity     |
+| state 		| dateOfBirth		| active      		|
+| country  		| 			| remaining    		|
+| pincode 		| 			| location      	|
+| dateOfBirth		| 			| student    		|
+| courseCompleted	| 			| waitlist_active    	|
+| courseTaken		| 			| waitlist_remaining    |
+| gpa			| 			| 			|
 ```
 
 Also, model files can be check  [here](https://github.com/punitMashruwala/spring-boot-university-application/tree/master/Application/src/main/java/com/example/mongo_task/model) .
