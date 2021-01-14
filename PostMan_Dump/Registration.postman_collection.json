@@ -1,0 +1,96 @@
+{
+	"info": {
+		"_postman_id": "69e042ae-21ea-4487-8852-8e37d8b6c8cb",
+		"name": "Registration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/registration/updateFacultyName",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"CourseId\": 1,\r\n        \"CourseName\": \"Data Structure\",\r\n        \"CourseCapacity\": 50,\r\n        \"FacultyId\" : 1,\r\n        \"FacultyName\": \"Eric Saule\",\r\n        \"courseCredit\": 3,\r\n        \"waitlistCapacity\": 0\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/registration/updateFacultyName",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registration",
+						"updateFacultyName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/registration/courseRegistration",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"CourseId\": 1,\r\n    \"StudentId\" : 3,\r\n    \"CourseName\": \"Data Structure\",\r\n    \"StudentName\": \"Anisha Kakhwani\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/registration/courseRegistration",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registration",
+						"courseRegistration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/registration/courseDrop",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"CourseId\": 1,\r\n    \"StudentId\" : 3,\r\n    \"CourseName\": \"Data Structure\",\r\n    \"StudentName\": \"Anisha Kakhwani\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/registration/courseDrop",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"registration",
+						"courseDrop"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

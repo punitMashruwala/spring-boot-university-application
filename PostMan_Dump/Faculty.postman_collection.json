@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c679093c-df37-4b0c-9230-a5e07e2ccf6b",
+		"name": "Faculty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/faculty/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Eric Saule\",\r\n    \"email\": \"esaule@uncc.edu\",\r\n    \"post\": \"Associate Professor\",\r\n    \"qualification\": \"PHD\",\r\n    \"reasearchArea\": [\"Algorithms\"],\r\n    \"experience\": 10,\r\n    \"dateOfBirth\": \"19/11/1995\",\r\n    \"currentCourse\" : []\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/faculty/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"faculty",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "7be33b3f-e48b-4604-b232-279a3589058b",
+		"name": "Student",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/student/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 42,\r\n    \"name\": \"Nisha Ramrakhyani\",\r\n    \"type\": \"Masters\",\r\n    \"major\": \"Computer Science\",\r\n    \"concentration\": \"Software Engineer\",\r\n    \"address\": \"9519 UT Dr Apt A\",\r\n    \"city\": \"Charlotte\",\r\n    \"state\": \"North Carolina\",\r\n    \"country\": \"US\",\r\n    \"pincode\": 28262,\r\n    \"dateOfBirth\": \"05/11/1994\",\r\n    \"courseCompleted\" : [\"Data Structure and Algorithms\", \"Big Data for computer advantage\", \"Knowledge Discovery in Database\"],\r\n    \"courseTaken\": [\"Intelligent System\", \"Mobile Application Development\", \"Cloud Computing\"],\r\n    \"currentGPA\": \"4\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/student/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"student",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/student/update/2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"name\": \"Nisha Ramrakhyani\",\r\n    \"type\": \"Masters\",\r\n    \"major\": \"Computer Science\",\r\n    \"concentration\": \"Software Engineer\",\r\n    \"address\": \"9519 UT Dr Apt A\",\r\n    \"city\": \"Charlotte\",\r\n    \"state\": \"North Carolina\",\r\n    \"country\": \"US\",\r\n    \"pincode\": 28262,\r\n    \"dateOfBirth\": \"05/11/1994\",\r\n    \"courseCompleted\" : [\"Data Structure and Algorithms\", \"Big Data for computer advantage\", \"Knowledge Discovery in Database\"],\r\n    \"courseTaken\": [\"Intelligent System\", \"Mobile Application Development\", \"Cloud Computing\"],\r\n    \"currentGPA\": \"4\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/student/update/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"student",
+						"update",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/api/student/findOne/4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/student/findOne/4",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"student",
+						"findOne",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
