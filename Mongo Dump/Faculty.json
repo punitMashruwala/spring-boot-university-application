@@ -1,0 +1,14 @@
+[{
+  "_id": 1,
+  "name": "EFGH ",
+  "email": "essfsdfe@uncc.edu",
+  "post": "Associate Professor",
+  "qualification": "PHD",
+  "reasearchArea": [
+    "Algorithms"
+  ],
+  "experience": 10,
+  "currentCourse": [],
+  "dateOfBirth": "19/11/1995",
+  "_class": "com.example.mongo_task.model.faculty"
+}]

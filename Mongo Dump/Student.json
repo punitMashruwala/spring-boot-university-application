@@ -1,0 +1,72 @@
+[{
+  "_id": 3,
+  "name": "Nisha Ramrakhyani",
+  "type": "Masters",
+  "major": "Computer Science",
+  "concentration": "Software Engineer",
+  "address": "9519 UT Dr Apt A",
+  "city": "Charlotte",
+  "state": "North Carolina",
+  "country": "US",
+  "pincode": 28262,
+  "dateOfBirth": "05/11/1994",
+  "courseCompleted": [
+    "Data Structure and Algorithms",
+    "Big Data for computer advantage",
+    "Knowledge Discovery in Database"
+  ],
+  "courseTaken": [
+    "Intelligent System",
+    "Mobile Application Development",
+    "Cloud Computing"
+  ],
+  "currentGPA": "4",
+  "_class": "com.example.mongo_task.model.student"
+},{
+  "_id": 2,
+  "name": "Nisha Ramrakhyani",
+  "major": "Computer Science",
+  "concentration": "Software Engineer",
+  "address": "9519 UT Dr Apt A",
+  "city": "Charlotte",
+  "state": "North Carolina",
+  "country": "US",
+  "pincode": 28262,
+  "dateOfBirth": "05/11/1994",
+  "courseCompleted": [
+    "Data Structure and Algorithms",
+    "Big Data for computer advantage",
+    "Knowledge Discovery in Database"
+  ],
+  "courseTaken": [
+    "Intelligent System",
+    "Mobile Application Development",
+    "Cloud Computing"
+  ],
+  "currentGPA": "4",
+  "_class": "com.example.mongo_task.model.student"
+},{
+  "_id": 42,
+  "name": "Nisha Ramrakhyani",
+  "type": "Masters",
+  "major": "Computer Science",
+  "concentration": "Software Engineer",
+  "address": "9519 UT Dr Apt A",
+  "city": "Charlotte",
+  "state": "North Carolina",
+  "country": "US",
+  "pincode": 28262,
+  "dateOfBirth": "05/11/1994",
+  "courseCompleted": [
+    "Data Structure and Algorithms",
+    "Big Data for computer advantage",
+    "Knowledge Discovery in Database"
+  ],
+  "courseTaken": [
+    "Intelligent System",
+    "Mobile Application Development",
+    "Cloud Computing"
+  ],
+  "currentGPA": "4",
+  "_class": "com.example.mongo_task.model.student"
+}]

@@ -1,0 +1,27 @@
+[{
+  "_id": 1,
+  "name": "Data Structure",
+  "day": "Tuesday",
+  "time": "2.30-5.00",
+  "courseCredit": 0,
+  "capacity": 0,
+  "active": 0,
+  "remaining": 0,
+  "waitlistCapacity": 0,
+  "waitlistActive": 0,
+  "waitlistRemaining": 0,
+  "_class": "com.example.mongo_task.model.course"
+},{
+  "_id": 100,
+  "name": "Data Structure",
+  "day": "Tuesday",
+  "time": "2.30-5.00",
+  "courseCredit": 0,
+  "capacity": 0,
+  "active": 0,
+  "remaining": 0,
+  "waitlistCapacity": 0,
+  "waitlistActive": 0,
+  "waitlistRemaining": 0,
+  "_class": "com.example.mongo_task.model.course"
+}]
